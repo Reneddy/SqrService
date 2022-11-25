@@ -62,7 +62,7 @@ public class SQRServiceTest {
     public void UnderBoundTest() {
         SQRService service = new SQRService();
 
-        int actual = service.calcSQRT(0, 9);
+        int actual = service.calcSQRT(0, 99);
         int expected = 0;
         assertEquals(expected, actual);
     }
