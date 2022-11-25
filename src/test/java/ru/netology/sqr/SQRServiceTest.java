@@ -36,8 +36,8 @@ public class SQRServiceTest {
     public void TwoLowerBoundTest() {
         SQRService service = new SQRService();
 
-        int actual = service.calcSQRT(10, 10);
-        int expected = 0;
+        int actual = service.calcSQRT(100, 100);
+        int expected = 1;
         assertEquals(expected, actual);
     }
 
